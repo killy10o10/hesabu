@@ -1,9 +1,13 @@
-import './assets/styles/app.scss';
+const style = {
+ heading: `text-3xl font-bold text-center text-gray-800 p-2`,
+}
 
 function App() {
   return (
     <>
-      <h1>Hesabu</h1>
+      <section>
+        <h1 className={style.heading}>Hesabu</h1>
+      </section>
     </>
   );
 }
